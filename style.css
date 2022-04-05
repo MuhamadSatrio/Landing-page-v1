@@ -1,0 +1,172 @@
+html{
+    scroll-behavior: smooth;
+    margin: 0rem 0rem 0rem 0rem;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    flex-direction: column;
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logo{
+    max-width: 150px;
+    max-height: 40px;
+    align-items: center;
+    margin: 0.5rem auto 0.5rem 1rem;
+}
+
+#nav-bar {
+    justify-content: space-around;
+    align-items: center;
+    background-color: beige;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#kepala{
+    flex-direction: column;
+    margin: 6rem auto 2rem auto;
+    text-align: center;
+}
+
+#email{
+    border: 2px solid;
+    padding: 7px;
+}
+
+#submit{
+    background-color: beige;
+    border: 2px solid;
+}
+
+ul{
+    display: inline-flex;
+    list-style: none;
+    margin: auto 1rem auto auto;
+}
+
+@media (max-width: 480px){
+    ul, #nav-bar{
+        display: block;
+        margin-bottom: 1rem;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #nav-bar{
+        padding: 0 auto;
+    }
+
+    li{
+        margin-bottom: 0.5rem;
+        text-align: center;
+    }
+
+    #kepala{
+        margin-top: 10rem;
+    }
+
+    .logo{
+        justify-content: center;
+        align-content: center;
+    }
+    
+    #harga{
+        flex-direction: column;
+    }
+}
+
+li{
+    margin-right: 2rem;
+}
+
+#email{
+    display: block;
+    margin: 1.5rem auto;
+}
+
+#jenis-gaya{
+    display: block;
+    margin: auto auto 6rem auto;
+}
+
+.control-gambar{
+    max-width: 100px;
+    max-height: 100px;
+    border: 2px solid;
+    border-color: beige;
+    margin: auto auto;
+}
+
+.gabungan-gaya{
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.control-pengertian{
+    margin: auto auto auto 1rem;
+}
+
+.video{
+    text-align: center;
+}
+
+iframe{
+    justify-content: center;
+    margin: 0rem auto 4rem auto;
+    width: 100%;
+    max-width: 400px;
+    border: 2px solid;
+}
+
+#tutorial{
+    margin-top: 10rem;
+}
+
+.harga2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0rem auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+#variasi{
+    border: 2px solid;
+    margin: 0rem 1rem 1rem 1rem;
+}
+
+#header-harga{
+    background-color: beige;
+    margin-top: 0;
+    padding: 1rem;
+}
+
+#penjelasan-harga{
+    margin: 1rem auto;
+}
+
+button{
+    margin-bottom: 1rem;
+    background-color: beige;
+    border: 2px solid;
+}
+
+footer{
+    border-top: 2px solid;
+    background-color: beige;
+    padding: 1rem 1rem 1rem 1rem;
+    max-width: 1500px;
+}
+
+#footer{
+    margin: auto auto;
+}
